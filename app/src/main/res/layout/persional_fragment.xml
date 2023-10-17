@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F6F6">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="80dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/profile" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="0dp"
+                        android:text="Anh Vũ"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="27sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.044"
+                        app:layout_constraintStart_toEndOf="@+id/imageView4"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textViewUser"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="4dp"
+                        android:text="Thông tin của tôi  "
+                        android:drawableEnd="@drawable/right"
+                        android:textColor="@color/blue"
+                        android:textSize="18sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.044"
+                        app:layout_constraintStart_toEndOf="@+id/imageView4"
+                        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        android:background="@drawable/bg_white_border_top"
+                        android:layout_marginBottom="0dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView101"
+                            android:layout_width="wrap_content"
+                            android:layout_height="32dp"
+                            android:layout_weight="0.25"
+                            app:srcCompat="@drawable/order" />
+
+                        <TextView
+                            android:id="@+id/textView271"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginTop="2dp"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"
+                            android:text="Đơn hàng của tôi" />
+
+                        <ImageView
+                            android:id="@+id/imageView141"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.2"
+                            android:layout_marginTop="6dp"
+                            app:srcCompat="@drawable/right2" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        android:background="@drawable/background_white"
+                        android:layout_marginTop="2dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView100"
+                            android:layout_width="22dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25"
+                            app:srcCompat="@drawable/email" />
+
+                        <TextView
+                            android:id="@+id/textView270"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginTop="2dp"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"
+                            android:text="Thông báo" />
+
+                        <ImageView
+                            android:id="@+id/imageView140"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.2"
+                            android:layout_marginTop="6dp"
+                            app:srcCompat="@drawable/right2" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        android:background="@drawable/background_white"
+                        android:layout_marginTop="2dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView102"
+                            android:layout_width="25dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25"
+                            app:srcCompat="@drawable/card" />
+
+                        <TextView
+                            android:id="@+id/textView272"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginTop="2dp"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"
+                            android:text="Thẻ của tôi" />
+
+                        <ImageView
+                            android:id="@+id/imageView142"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.2"
+                            android:layout_marginTop="6dp"
+                            app:srcCompat="@drawable/right2" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        android:background="@drawable/bg_white_border_bottom"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="0dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView10"
+                            android:layout_width="45dp"
+                            android:layout_height="30dp"
+                            android:layout_weight="0.25"
+                            app:srcCompat="@drawable/human_2" />
+
+                        <TextView
+                            android:id="@+id/textView27"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginTop="2dp"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"
+                            android:text="Thông tin thường dùng" />
+
+                        <ImageView
+                            android:id="@+id/imageView14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:layout_marginTop="6dp"
+                            app:srcCompat="@drawable/right2" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        android:background="@drawable/bg_white_border_top"
+                        android:layout_marginBottom="0dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView1010"
+                            android:layout_width="1dp"
+                            android:layout_height="35dp"
+                            android:layout_weight="0.25"
+                            app:srcCompat="@drawable/help" />
+
+                        <TextView
+                            android:id="@+id/textView2710"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginTop="2dp"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"
+                            android:text="Trợ giúp" />
+
+                        <ImageView
+                            android:id="@+id/imageView1410"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.2"
+                            android:layout_marginTop="6dp"
+                            app:srcCompat="@drawable/right2" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        android:background="@drawable/background_white"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="0dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView1000"
+                            android:layout_width="20dp"
+                            android:layout_height="32dp"
+                            android:layout_weight="0.25"
+                            app:srcCompat="@drawable/like2" />
+
+                        <TextView
+                            android:id="@+id/textView270000"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginTop="2dp"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"
+                            android:text="Đánh giá ứng dụng" />
+
+                        <ImageView
+                            android:id="@+id/imageView1402"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.4"
+                            android:layout_marginTop="6dp"
+                            app:srcCompat="@drawable/right2" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/set_up"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        android:background="@drawable/bg_white_border_bottom"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="0dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView1022"
+                            android:layout_width="2dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.25"
+                            app:srcCompat="@drawable/settig" />
+
+                        <TextView
+                            android:id="@+id/textView2722"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginTop="2dp"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"
+                            android:text="Cài đặt" />
+
+                        <ImageView
+                            android:id="@+id/imageView1423"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.2"
+                            android:layout_marginTop="6dp"
+                            app:srcCompat="@drawable/right2" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/border_search"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+
+
+
+
+                        <TextView
+                            android:id="@+id/textView27100"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginStart="25dp"
+                            android:layout_marginBottom="0dp"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:text="Bạn có thấy ứng dụng có dễ hiểu và dễ sử dụng không?" />
+
+
+
+
+                        <TextView
+                            android:id="@+id/textView2700"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="20sp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginStart="25dp"
+                            android:layout_marginBottom="0dp"
+                            android:textColor="@color/black"
+                            android:text="Hãy cho chúng tôi biết nhé!" />
+
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/button2"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginEnd="200dp"
+                        android:layout_marginBottom="16dp"
+                        android:text="Làm khảo sát"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:background="@drawable/login_background"
+                        android:textColor="@color/white"
+                        >
+                    </androidx.appcompat.widget.AppCompatButton>
+
+
+
+
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

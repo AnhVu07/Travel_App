@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Travel App</string>
+    <string name="forget">
+    <u>Forget password?</u>
+    </string>
+    <string name="register">
+    <u>Register</u>
+    </string>
+    <string name="login">
+    <u>Login</u>
+    </string>
+</resources>
